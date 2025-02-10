@@ -23,7 +23,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="780" y="-1360"/>
+      <pos x="780" y="-1040"/>
     </visualElement>
     <visualElement>
       <elementName>Counter</elementName>
@@ -37,7 +37,7 @@
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="-520" y="-1440"/>
+      <pos x="-520" y="-1120"/>
     </visualElement>
     <visualElement>
       <elementName>EEPROM</elementName>
@@ -64,7 +64,7 @@
 ,0,40</data>
         </entry>
       </elementAttributes>
-      <pos x="-400" y="-1200"/>
+      <pos x="-400" y="-880"/>
     </visualElement>
     <visualElement>
       <elementName>EEPROM</elementName>
@@ -88,10 +88,10 @@
         <entry>
           <string>Data</string>
           <data>80,80,80,13*0,80,80,80,3,12*0,80,80,80,21,12*0,80,80,80,18,89
-,11*0,80,80,80,18,48</data>
+,11*0,80,80,80,18,48,11*0,80,80,80,1</data>
         </entry>
       </elementAttributes>
-      <pos x="-80" y="-1200"/>
+      <pos x="-80" y="-880"/>
     </visualElement>
     <visualElement>
       <elementName>EEPROM</elementName>
@@ -115,10 +115,10 @@
         <entry>
           <string>Data</string>
           <data>16,26,46,13*0,16,26,46,1,12*0,16,26,46,1,12*0,16,26,46,0,1,11*0
-,16,26,46,0,81</data>
+,16,26,46,0,81,11*0,16,26,46,1</data>
         </entry>
       </elementAttributes>
-      <pos x="80" y="-1200"/>
+      <pos x="80" y="-880"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -128,7 +128,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="-480" y="-1240"/>
+      <pos x="-480" y="-920"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -142,7 +142,7 @@
           <long>0</long>
         </entry>
       </elementAttributes>
-      <pos x="-460" y="-1260"/>
+      <pos x="-460" y="-940"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -160,7 +160,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="-400" y="-1360"/>
+      <pos x="-400" y="-1040"/>
     </visualElement>
     <visualElement>
       <elementName>EEPROM</elementName>
@@ -181,18 +181,22 @@
           <string>Bits</string>
           <int>8</int>
         </entry>
+        <entry>
+          <string>Data</string>
+          <data>83*0,f</data>
+        </entry>
       </elementAttributes>
-      <pos x="-240" y="-1200"/>
+      <pos x="-240" y="-880"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
       <elementAttributes/>
-      <pos x="-440" y="-1420"/>
+      <pos x="-440" y="-1100"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
       <elementAttributes/>
-      <pos x="-540" y="-1440"/>
+      <pos x="-540" y="-1120"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -210,7 +214,7 @@
           <string>1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="-440" y="-1120"/>
+      <pos x="-440" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -228,7 +232,7 @@
           <string>1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="-280" y="-1120"/>
+      <pos x="-280" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -246,7 +250,7 @@
           <string>1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="-120" y="-1120"/>
+      <pos x="-120" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -264,7 +268,7 @@
           <string>1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="40" y="-1120"/>
+      <pos x="40" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -509,7 +513,7 @@
           <string>Clock</string>
         </entry>
       </elementAttributes>
-      <pos x="-540" y="-1420"/>
+      <pos x="-540" y="-1100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -565,7 +569,7 @@
           <string>Clock</string>
         </entry>
       </elementAttributes>
-      <pos x="720" y="-1380"/>
+      <pos x="720" y="-1060"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -579,7 +583,7 @@
           <string>Microcode_Step_Counter_Clear</string>
         </entry>
       </elementAttributes>
-      <pos x="40" y="-1080"/>
+      <pos x="40" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -593,7 +597,7 @@
           <string>Microcode_Step_Counter_Clear</string>
         </entry>
       </elementAttributes>
-      <pos x="-540" y="-1400"/>
+      <pos x="-540" y="-1080"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -607,7 +611,7 @@
           <string>Program_Counter_Increase_Enable</string>
         </entry>
       </elementAttributes>
-      <pos x="20" y="-1080"/>
+      <pos x="20" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -621,7 +625,7 @@
           <string>Program_Conter_Read_Address_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-20" y="-1080"/>
+      <pos x="-20" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -635,7 +639,7 @@
           <string>Program_Conter_Write_Address_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="0" y="-1080"/>
+      <pos x="0" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>CounterPreset</elementName>
@@ -695,7 +699,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="240" y="-1680"/>
+      <pos x="240" y="-1360"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -845,7 +849,7 @@
           <string>IR0_Read_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-40" y="-1080"/>
+      <pos x="-40" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -859,7 +863,7 @@
           <string>IR1_Read_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-60" y="-1080"/>
+      <pos x="-60" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -873,7 +877,7 @@
           <string>IR2_Read_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-80" y="-1080"/>
+      <pos x="-80" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -929,7 +933,7 @@
           <string>Instruction_RD</string>
         </entry>
       </elementAttributes>
-      <pos x="740" y="-1380"/>
+      <pos x="740" y="-1060"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -943,7 +947,7 @@
           <string>RD_Read_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-120" y="-1080"/>
+      <pos x="-120" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -961,7 +965,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="780" y="-1520"/>
+      <pos x="780" y="-1200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -975,7 +979,7 @@
           <string>RD_Read_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="660" y="-1520"/>
+      <pos x="660" y="-1200"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -993,7 +997,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="380" y="-1120"/>
+      <pos x="380" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1011,7 +1015,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="380" y="-1180"/>
+      <pos x="380" y="-860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1025,7 +1029,7 @@
           <string>RS0_Write_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-140" y="-1080"/>
+      <pos x="-140" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1039,7 +1043,7 @@
           <string>RS1_Write_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-160" y="-1080"/>
+      <pos x="-160" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1049,7 +1053,7 @@
           <string>RS1_Write_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="400" y="-1220"/>
+      <pos x="400" y="-900"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1059,7 +1063,7 @@
           <string>RS0_Write_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="400" y="-1160"/>
+      <pos x="400" y="-840"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -1077,7 +1081,7 @@
           <int>46</int>
         </entry>
       </elementAttributes>
-      <pos x="-760" y="-1620"/>
+      <pos x="-760" y="-1300"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -1131,7 +1135,7 @@
           <int>29</int>
         </entry>
       </elementAttributes>
-      <pos x="260" y="-1620"/>
+      <pos x="260" y="-1300"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1145,7 +1149,7 @@
           <string>Read_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-260" y="-1080"/>
+      <pos x="-260" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1155,7 +1159,7 @@
           <string>Read_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="280" y="-1680"/>
+      <pos x="280" y="-1360"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1211,7 +1215,7 @@
           <string>RS_Write_Address_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-180" y="-1080"/>
+      <pos x="-180" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1296,7 +1300,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>2,0,ff,12,0,80,22,0,0,4,21,0,2,0,80,31,0,0,3,21</data>
+          <data>12,0,a,22,0,f,35,21,0,41,3</data>
         </entry>
       </elementAttributes>
       <pos x="-40" y="1020"/>
@@ -1313,7 +1317,7 @@
           <string>Instruction_Opcode</string>
         </entry>
       </elementAttributes>
-      <pos x="-200" y="-1460"/>
+      <pos x="-200" y="-1140"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1345,7 +1349,7 @@
           <string>Immediate_Write_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-220" y="-1080"/>
+      <pos x="-220" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1373,7 +1377,7 @@
           <string>Write_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-240" y="-1080"/>
+      <pos x="-240" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -1388,10 +1392,10 @@
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>28</int>
+          <int>29</int>
         </entry>
       </elementAttributes>
-      <pos x="260" y="-1000"/>
+      <pos x="260" y="-680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1405,7 +1409,7 @@
           <string>Instruction_RS1</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="-1400"/>
+      <pos x="600" y="-1080"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -1423,7 +1427,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="620" y="-920"/>
+      <pos x="620" y="-600"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -1441,7 +1445,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="620" y="-800"/>
+      <pos x="620" y="-480"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1459,7 +1463,7 @@
           <string>16</string>
         </entry>
       </elementAttributes>
-      <pos x="520" y="-900"/>
+      <pos x="520" y="-580"/>
     </visualElement>
     <visualElement>
       <elementName>Add</elementName>
@@ -1473,7 +1477,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="400" y="-880"/>
+      <pos x="400" y="-560"/>
     </visualElement>
     <visualElement>
       <elementName>BitExtender</elementName>
@@ -1483,7 +1487,7 @@
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="480" y="-880"/>
+      <pos x="480" y="-560"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1493,7 +1497,7 @@
           <string>Clock</string>
         </entry>
       </elementAttributes>
-      <pos x="740" y="-940"/>
+      <pos x="760" y="-620"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1507,7 +1511,7 @@
           <long>0</long>
         </entry>
       </elementAttributes>
-      <pos x="420" y="-920"/>
+      <pos x="420" y="-600"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1521,7 +1525,7 @@
           <string>Instruction_Immediate</string>
         </entry>
       </elementAttributes>
-      <pos x="480" y="-840"/>
+      <pos x="480" y="-520"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1539,7 +1543,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="300" y="-880"/>
+      <pos x="300" y="-560"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1549,7 +1553,7 @@
           <string>RS_Write_Address_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="340" y="-960"/>
+      <pos x="340" y="-640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1563,7 +1567,7 @@
           <string>RS_Buffer</string>
         </entry>
       </elementAttributes>
-      <pos x="-200" y="-1080"/>
+      <pos x="-200" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1573,7 +1577,7 @@
           <string>RS_Buffer</string>
         </entry>
       </elementAttributes>
-      <pos x="740" y="-960"/>
+      <pos x="760" y="-640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1587,7 +1591,7 @@
           <string>RD_write_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="-100" y="-1080"/>
+      <pos x="-100" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1597,7 +1601,7 @@
           <string>RD_write_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="400" y="-1300"/>
+      <pos x="400" y="-980"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1615,7 +1619,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="380" y="-1260"/>
+      <pos x="380" y="-940"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -1625,7 +1629,7 @@
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="620" y="-1400"/>
+      <pos x="620" y="-1080"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1639,7 +1643,7 @@
           <string>RD_write_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="620" y="-1340"/>
+      <pos x="620" y="-1020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1653,7 +1657,7 @@
           <string>Instruction_RD</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="-1360"/>
+      <pos x="600" y="-1040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1667,7 +1671,7 @@
           <string>Instruction_RS0</string>
         </entry>
       </elementAttributes>
-      <pos x="700" y="-1380"/>
+      <pos x="700" y="-1060"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1681,7 +1685,7 @@
           <string>Memory_Write_Enable</string>
         </entry>
       </elementAttributes>
-      <pos x="-560" y="-1080"/>
+      <pos x="-560" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1695,7 +1699,7 @@
           <string>Memory_Output_Enable</string>
         </entry>
       </elementAttributes>
-      <pos x="-580" y="-1080"/>
+      <pos x="-580" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1853,7 +1857,7 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
           <string>Instruction_RD</string>
         </entry>
       </elementAttributes>
-      <pos x="340" y="-1440"/>
+      <pos x="340" y="-1120"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1867,7 +1871,7 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
           <string>1,1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="360" y="-1440"/>
+      <pos x="360" y="-1120"/>
     </visualElement>
     <visualElement>
       <elementName>NOr</elementName>
@@ -1877,12 +1881,12 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="440" y="-1460"/>
+      <pos x="440" y="-1140"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
       <elementAttributes/>
-      <pos x="520" y="-1480"/>
+      <pos x="520" y="-1160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1896,7 +1900,7 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
           <string>RD_Read_Data_Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="500" y="-1480"/>
+      <pos x="500" y="-1160"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1906,53 +1910,333 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
           <long>0</long>
         </entry>
       </elementAttributes>
-      <pos x="500" y="-1440"/>
+      <pos x="500" y="-1120"/>
     </visualElement>
     <visualElement>
       <elementName>ALU.dig</elementName>
-      <elementAttributes/>
-      <pos x="500" y="-600"/>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="-240"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
-      <pos x="800" y="-180"/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="-140"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
       <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>5</int>
+        </entry>
         <entry>
           <string>Label</string>
           <string>Status Register</string>
         </entry>
         <entry>
-          <string>RectHeight</string>
-          <int>7</int>
-        </entry>
-        <entry>
           <string>RectWidth</string>
-          <int>31</int>
+          <int>17</int>
         </entry>
       </elementAttributes>
-      <pos x="260" y="-200"/>
+      <pos x="360" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>ALU</string>
+          <string>RectHeight</string>
+          <int>9</int>
         </entry>
         <entry>
-          <string>RectHeight</string>
-          <int>23</int>
+          <string>Label</string>
+          <string>ALU</string>
         </entry>
         <entry>
           <string>RectWidth</string>
           <int>34</int>
         </entry>
       </elementAttributes>
-      <pos x="260" y="-700"/>
+      <pos x="260" y="-380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="860" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="-220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>ALU_Out_Write_Data_Bus</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-320" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>RS0_Write_ALU_A</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-280" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>RS1_Write_ALU_B</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-300" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>ALU_Out_Write_Data_Bus</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="-360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>RS1_Write_ALU_B</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="-340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>RS0_Write_ALU_A</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="-320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="-240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>Clock</string>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>ALU_Write_Flag_Register</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-340" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>ALU_Write_Flag_Register</string>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4,4</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="-340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>Instruction_Immediate</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="-360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="980" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="140"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -1965,80 +2249,96 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="440" y="640"/>
     </wire>
     <wire>
-      <p1 x="520" y="-900"/>
-      <p2 x="540" y="-900"/>
+      <p1 x="380" y="-900"/>
+      <p2 x="400" y="-900"/>
     </wire>
     <wire>
-      <p1 x="400" y="-900"/>
-      <p2 x="500" y="-900"/>
+      <p1 x="-480" y="-900"/>
+      <p2 x="-420" y="-900"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1160"/>
-      <p2 x="400" y="-1160"/>
+      <p1 x="-320" y="-900"/>
+      <p2 x="-260" y="-900"/>
     </wire>
     <wire>
-      <p1 x="-460" y="-1420"/>
-      <p2 x="-440" y="-1420"/>
+      <p1 x="-420" y="-900"/>
+      <p2 x="-320" y="-900"/>
     </wire>
     <wire>
-      <p1 x="-540" y="-1420"/>
-      <p2 x="-520" y="-1420"/>
+      <p1 x="-160" y="-900"/>
+      <p2 x="-100" y="-900"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1420"/>
-      <p2 x="420" y="-1420"/>
+      <p1 x="-260" y="-900"/>
+      <p2 x="-160" y="-900"/>
     </wire>
     <wire>
-      <p1 x="520" y="-1420"/>
-      <p2 x="540" y="-1420"/>
+      <p1 x="0" y="-900"/>
+      <p2 x="60" y="-900"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="-900"/>
+      <p2 x="0" y="-900"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="-260"/>
+      <p2 x="900" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="-260"/>
+      <p2 x="840" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-260"/>
+      <p2 x="420" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-520"/>
+      <p2 x="720" y="-520"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="-520"/>
+      <p2 x="500" y="-520"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-1160"/>
+      <p2 x="520" y="-1160"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-140"/>
+      <p2 x="540" y="-140"/>
     </wire>
     <wire>
       <p1 x="-40" y="780"/>
       <p2 x="40" y="780"/>
     </wire>
     <wire>
-      <p1 x="260" y="-1680"/>
-      <p2 x="280" y="-1680"/>
+      <p1 x="600" y="-1040"/>
+      <p2 x="620" y="-1040"/>
     </wire>
     <wire>
       <p1 x="240" y="400"/>
       <p2 x="500" y="400"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1300"/>
-      <p2 x="400" y="-1300"/>
-    </wire>
-    <wire>
       <p1 x="420" y="660"/>
       <p2 x="440" y="660"/>
     </wire>
     <wire>
-      <p1 x="520" y="-920"/>
-      <p2 x="540" y="-920"/>
+      <p1 x="-460" y="-920"/>
+      <p2 x="-300" y="-920"/>
     </wire>
     <wire>
-      <p1 x="400" y="-920"/>
-      <p2 x="420" y="-920"/>
+      <p1 x="-140" y="-920"/>
+      <p2 x="20" y="-920"/>
     </wire>
     <wire>
-      <p1 x="620" y="-920"/>
-      <p2 x="640" y="-920"/>
+      <p1 x="-300" y="-920"/>
+      <p2 x="-140" y="-920"/>
     </wire>
     <wire>
-      <p1 x="240" y="-1560"/>
-      <p2 x="780" y="-1560"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="-1180"/>
-      <p2 x="660" y="-1180"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="-1180"/>
-      <p2 x="360" y="-1180"/>
-    </wire>
-    <wire>
-      <p1 x="660" y="-1180"/>
-      <p2 x="760" y="-1180"/>
+      <p1 x="520" y="-280"/>
+      <p2 x="540" y="-280"/>
     </wire>
     <wire>
       <p1 x="260" y="540"/>
@@ -2049,36 +2349,32 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="180" y="540"/>
     </wire>
     <wire>
-      <p1 x="340" y="-1440"/>
-      <p2 x="360" y="-1440"/>
+      <p1 x="240" y="-800"/>
+      <p2 x="360" y="-800"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1440"/>
-      <p2 x="400" y="-1440"/>
+      <p1 x="400" y="-800"/>
+      <p2 x="640" y="-800"/>
     </wire>
     <wire>
-      <p1 x="420" y="-1440"/>
-      <p2 x="440" y="-1440"/>
+      <p1 x="640" y="-800"/>
+      <p2 x="780" y="-800"/>
     </wire>
     <wire>
-      <p1 x="500" y="-1440"/>
-      <p2 x="520" y="-1440"/>
-    </wire>
-    <wire>
-      <p1 x="-460" y="-1440"/>
-      <p2 x="-400" y="-1440"/>
-    </wire>
-    <wire>
-      <p1 x="-540" y="-1440"/>
-      <p2 x="-520" y="-1440"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="-800"/>
-      <p2 x="660" y="-800"/>
+      <p1 x="780" y="-800"/>
+      <p2 x="920" y="-800"/>
     </wire>
     <wire>
       <p1 x="-40" y="800"/>
       <p2 x="-20" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-1060"/>
+      <p2 x="680" y="-1060"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-1060"/>
+      <p2 x="440" y="-1060"/>
     </wire>
     <wire>
       <p1 x="240" y="420"/>
@@ -2089,16 +2385,28 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="420" y="680"/>
     </wire>
     <wire>
-      <p1 x="540" y="-940"/>
-      <p2 x="560" y="-940"/>
+      <p1 x="520" y="-300"/>
+      <p2 x="680" y="-300"/>
     </wire>
     <wire>
-      <p1 x="620" y="-940"/>
-      <p2 x="720" y="-940"/>
+      <p1 x="240" y="-940"/>
+      <p2 x="360" y="-940"/>
     </wire>
     <wire>
-      <p1 x="720" y="-940"/>
-      <p2 x="740" y="-940"/>
+      <p1 x="400" y="-940"/>
+      <p2 x="760" y="-940"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="-940"/>
+      <p2 x="-240" y="-940"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="-940"/>
+      <p2 x="-80" y="-940"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="-940"/>
+      <p2 x="80" y="-940"/>
     </wire>
     <wire>
       <p1 x="-140" y="300"/>
@@ -2109,20 +2417,24 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="-20" y="940"/>
     </wire>
     <wire>
-      <p1 x="400" y="-1460"/>
-      <p2 x="440" y="-1460"/>
+      <p1 x="660" y="-1200"/>
+      <p2 x="760" y="-1200"/>
     </wire>
     <wire>
-      <p1 x="560" y="-1460"/>
-      <p2 x="760" y="-1460"/>
+      <p1 x="180" y="-560"/>
+      <p2 x="280" y="-560"/>
     </wire>
     <wire>
-      <p1 x="540" y="-820"/>
-      <p2 x="560" y="-820"/>
+      <p1 x="400" y="-560"/>
+      <p2 x="420" y="-560"/>
     </wire>
     <wire>
-      <p1 x="620" y="-820"/>
-      <p2 x="720" y="-820"/>
+      <p1 x="480" y="-560"/>
+      <p2 x="500" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-560"/>
+      <p2 x="340" y="-560"/>
     </wire>
     <wire>
       <p1 x="120" y="820"/>
@@ -2137,8 +2449,16 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="-100" y="820"/>
     </wire>
     <wire>
-      <p1 x="220" y="-1720"/>
-      <p2 x="240" y="-1720"/>
+      <p1 x="600" y="-1080"/>
+      <p2 x="620" y="-1080"/>
+    </wire>
+    <wire>
+      <p1 x="-540" y="-1080"/>
+      <p2 x="-520" y="-1080"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-1080"/>
+      <p2 x="440" y="-1080"/>
     </wire>
     <wire>
       <p1 x="240" y="440"/>
@@ -2149,68 +2469,24 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="-120" y="440"/>
     </wire>
     <wire>
-      <p1 x="620" y="-1340"/>
-      <p2 x="640" y="-1340"/>
-    </wire>
-    <wire>
-      <p1 x="300" y="-960"/>
-      <p2 x="340" y="-960"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="-960"/>
-      <p2 x="700" y="-960"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="-960"/>
-      <p2 x="740" y="-960"/>
+      <p1 x="780" y="-320"/>
+      <p2 x="800" y="-320"/>
     </wire>
     <wire>
       <p1 x="-40" y="960"/>
       <p2 x="-20" y="960"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1220"/>
-      <p2 x="400" y="-1220"/>
+      <p1 x="520" y="-580"/>
+      <p2 x="540" y="-580"/>
     </wire>
     <wire>
-      <p1 x="-480" y="-1220"/>
-      <p2 x="-420" y="-1220"/>
+      <p1 x="400" y="-580"/>
+      <p2 x="500" y="-580"/>
     </wire>
     <wire>
-      <p1 x="-160" y="-1220"/>
-      <p2 x="-100" y="-1220"/>
-    </wire>
-    <wire>
-      <p1 x="-260" y="-1220"/>
-      <p2 x="-160" y="-1220"/>
-    </wire>
-    <wire>
-      <p1 x="0" y="-1220"/>
-      <p2 x="60" y="-1220"/>
-    </wire>
-    <wire>
-      <p1 x="-100" y="-1220"/>
-      <p2 x="0" y="-1220"/>
-    </wire>
-    <wire>
-      <p1 x="-320" y="-1220"/>
-      <p2 x="-260" y="-1220"/>
-    </wire>
-    <wire>
-      <p1 x="-420" y="-1220"/>
-      <p2 x="-320" y="-1220"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="-840"/>
-      <p2 x="700" y="-840"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="-840"/>
-      <p2 x="500" y="-840"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="-1480"/>
-      <p2 x="520" y="-1480"/>
+      <p1 x="380" y="-840"/>
+      <p2 x="400" y="-840"/>
     </wire>
     <wire>
       <p1 x="820" y="200"/>
@@ -2225,6 +2501,10 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="360" y="200"/>
     </wire>
     <wire>
+      <p1 x="880" y="200"/>
+      <p2 x="1020" y="200"/>
+    </wire>
+    <wire>
       <p1 x="840" y="200"/>
       <p2 x="860" y="200"/>
     </wire>
@@ -2237,12 +2517,28 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="-20" y="840"/>
     </wire>
     <wire>
+      <p1 x="-460" y="-1100"/>
+      <p2 x="-440" y="-1100"/>
+    </wire>
+    <wire>
+      <p1 x="-540" y="-1100"/>
+      <p2 x="-520" y="-1100"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-1100"/>
+      <p2 x="420" y="-1100"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="-1100"/>
+      <p2 x="540" y="-1100"/>
+    </wire>
+    <wire>
       <p1 x="-140" y="460"/>
       <p2 x="-120" y="460"/>
     </wire>
     <wire>
-      <p1 x="600" y="-1360"/>
-      <p2 x="620" y="-1360"/>
+      <p1 x="260" y="-1360"/>
+      <p2 x="280" y="-1360"/>
     </wire>
     <wire>
       <p1 x="-140" y="720"/>
@@ -2253,6 +2549,14 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="220" y="720"/>
     </wire>
     <wire>
+      <p1 x="380" y="-980"/>
+      <p2 x="400" y="-980"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="-340"/>
+      <p2 x="860" y="-340"/>
+    </wire>
+    <wire>
       <p1 x="-100" y="340"/>
       <p2 x="-80" y="340"/>
     </wire>
@@ -2261,16 +2565,20 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="-100" y="980"/>
     </wire>
     <wire>
-      <p1 x="-460" y="-1240"/>
-      <p2 x="-300" y="-1240"/>
+      <p1 x="520" y="-600"/>
+      <p2 x="540" y="-600"/>
     </wire>
     <wire>
-      <p1 x="-300" y="-1240"/>
-      <p2 x="-140" y="-1240"/>
+      <p1 x="400" y="-600"/>
+      <p2 x="420" y="-600"/>
     </wire>
     <wire>
-      <p1 x="-140" y="-1240"/>
-      <p2 x="20" y="-1240"/>
+      <p1 x="620" y="-600"/>
+      <p2 x="640" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-1240"/>
+      <p2 x="780" y="-1240"/>
     </wire>
     <wire>
       <p1 x="400" y="600"/>
@@ -2281,6 +2589,30 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="260" y="600"/>
     </wire>
     <wire>
+      <p1 x="400" y="-860"/>
+      <p2 x="660" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-860"/>
+      <p2 x="360" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-860"/>
+      <p2 x="760" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="-860"/>
+      <p2 x="900" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="-220"/>
+      <p2 x="920" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-220"/>
+      <p2 x="780" y="-220"/>
+    </wire>
+    <wire>
       <p1 x="140" y="860"/>
       <p2 x="160" y="860"/>
     </wire>
@@ -2289,72 +2621,76 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="80" y="860"/>
     </wire>
     <wire>
-      <p1 x="400" y="-1120"/>
-      <p2 x="640" y="-1120"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="-1120"/>
+      <p1 x="340" y="-1120"/>
       <p2 x="360" y="-1120"/>
     </wire>
     <wire>
-      <p1 x="640" y="-1120"/>
-      <p2 x="780" y="-1120"/>
+      <p1 x="380" y="-1120"/>
+      <p2 x="400" y="-1120"/>
     </wire>
     <wire>
-      <p1 x="660" y="-1380"/>
-      <p2 x="680" y="-1380"/>
+      <p1 x="420" y="-1120"/>
+      <p2 x="440" y="-1120"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1380"/>
-      <p2 x="440" y="-1380"/>
+      <p1 x="500" y="-1120"/>
+      <p2 x="520" y="-1120"/>
+    </wire>
+    <wire>
+      <p1 x="-460" y="-1120"/>
+      <p2 x="-400" y="-1120"/>
+    </wire>
+    <wire>
+      <p1 x="-540" y="-1120"/>
+      <p2 x="-520" y="-1120"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-480"/>
+      <p2 x="660" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="-100"/>
+      <p2 x="540" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-360"/>
+      <p2 x="320" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-360"/>
+      <p2 x="560" y="-360"/>
     </wire>
     <wire>
       <p1 x="-40" y="1000"/>
       <p2 x="-20" y="1000"/>
     </wire>
     <wire>
-      <p1 x="240" y="-1260"/>
-      <p2 x="360" y="-1260"/>
+      <p1 x="540" y="-620"/>
+      <p2 x="560" y="-620"/>
     </wire>
     <wire>
-      <p1 x="400" y="-1260"/>
-      <p2 x="760" y="-1260"/>
+      <p1 x="620" y="-620"/>
+      <p2 x="740" y="-620"/>
     </wire>
     <wire>
-      <p1 x="-400" y="-1260"/>
-      <p2 x="-240" y="-1260"/>
-    </wire>
-    <wire>
-      <p1 x="-80" y="-1260"/>
-      <p2 x="80" y="-1260"/>
-    </wire>
-    <wire>
-      <p1 x="-240" y="-1260"/>
-      <p2 x="-80" y="-1260"/>
+      <p1 x="740" y="-620"/>
+      <p2 x="760" y="-620"/>
     </wire>
     <wire>
       <p1 x="420" y="620"/>
       <p2 x="440" y="620"/>
     </wire>
     <wire>
-      <p1 x="660" y="-1520"/>
-      <p2 x="760" y="-1520"/>
+      <p1 x="320" y="-240"/>
+      <p2 x="420" y="-240"/>
     </wire>
     <wire>
-      <p1 x="180" y="-880"/>
-      <p2 x="280" y="-880"/>
+      <p1 x="240" y="-240"/>
+      <p2 x="280" y="-240"/>
     </wire>
     <wire>
-      <p1 x="400" y="-880"/>
-      <p2 x="420" y="-880"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="-880"/>
-      <p2 x="500" y="-880"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="-880"/>
-      <p2 x="340" y="-880"/>
+      <p1 x="520" y="-240"/>
+      <p2 x="540" y="-240"/>
     </wire>
     <wire>
       <p1 x="-160" y="240"/>
@@ -2365,52 +2701,88 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="100" y="880"/>
     </wire>
     <wire>
+      <p1 x="400" y="-1140"/>
+      <p2 x="440" y="-1140"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-1140"/>
+      <p2 x="760" y="-1140"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-500"/>
+      <p2 x="560" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-500"/>
+      <p2 x="740" y="-500"/>
+    </wire>
+    <wire>
       <p1 x="-100" y="500"/>
       <p2 x="180" y="500"/>
     </wire>
     <wire>
-      <p1 x="600" y="-1400"/>
-      <p2 x="620" y="-1400"/>
+      <p1 x="220" y="-1400"/>
+      <p2 x="240" y="-1400"/>
     </wire>
     <wire>
-      <p1 x="-540" y="-1400"/>
-      <p2 x="-520" y="-1400"/>
+      <p1 x="600" y="-120"/>
+      <p2 x="680" y="-120"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1400"/>
-      <p2 x="440" y="-1400"/>
+      <p1 x="520" y="-120"/>
+      <p2 x="540" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-1020"/>
+      <p2 x="640" y="-1020"/>
     </wire>
     <wire>
       <p1 x="-40" y="1020"/>
       <p2 x="80" y="1020"/>
     </wire>
     <wire>
-      <p1 x="0" y="-1220"/>
-      <p2 x="0" y="-1200"/>
+      <p1 x="300" y="-640"/>
+      <p2 x="340" y="-640"/>
     </wire>
     <wire>
-      <p1 x="0" y="-1100"/>
-      <p2 x="0" y="-1080"/>
+      <p1 x="620" y="-640"/>
+      <p2 x="720" y="-640"/>
     </wire>
     <wire>
-      <p1 x="640" y="-1360"/>
-      <p2 x="640" y="-1340"/>
+      <p1 x="720" y="-640"/>
+      <p2 x="760" y="-640"/>
     </wire>
     <wire>
-      <p1 x="640" y="-1120"/>
-      <p2 x="640" y="-920"/>
+      <p1 x="0" y="-900"/>
+      <p2 x="0" y="-880"/>
     </wire>
     <wire>
-      <p1 x="-260" y="-1220"/>
-      <p2 x="-260" y="-1200"/>
+      <p1 x="0" y="-780"/>
+      <p2 x="0" y="-760"/>
     </wire>
     <wire>
-      <p1 x="-260" y="-1100"/>
-      <p2 x="-260" y="-1080"/>
+      <p1 x="640" y="-1040"/>
+      <p2 x="640" y="-1020"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="-800"/>
+      <p2 x="640" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-900"/>
+      <p2 x="-260" y="-880"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-780"/>
+      <p2 x="-260" y="-760"/>
     </wire>
     <wire>
       <p1 x="900" y="320"/>
       <p2 x="900" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="-860"/>
+      <p2 x="900" y="-260"/>
     </wire>
     <wire>
       <p1 x="520" y="180"/>
@@ -2429,84 +2801,104 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="-140" y="360"/>
     </wire>
     <wire>
-      <p1 x="-140" y="-1240"/>
-      <p2 x="-140" y="-1200"/>
+      <p1 x="-140" y="-920"/>
+      <p2 x="-140" y="-880"/>
     </wire>
     <wire>
-      <p1 x="-140" y="-1100"/>
-      <p2 x="-140" y="-1080"/>
+      <p1 x="-140" y="-780"/>
+      <p2 x="-140" y="-760"/>
     </wire>
     <wire>
       <p1 x="-140" y="720"/>
       <p2 x="-140" y="980"/>
     </wire>
     <wire>
-      <p1 x="780" y="-1500"/>
-      <p2 x="780" y="-1360"/>
+      <p1 x="780" y="-1180"/>
+      <p2 x="780" y="-1040"/>
     </wire>
     <wire>
-      <p1 x="780" y="-1560"/>
-      <p2 x="780" y="-1540"/>
+      <p1 x="780" y="-1240"/>
+      <p2 x="780" y="-1220"/>
     </wire>
     <wire>
-      <p1 x="780" y="-1280"/>
-      <p2 x="780" y="-1120"/>
+      <p1 x="780" y="-960"/>
+      <p2 x="780" y="-800"/>
     </wire>
     <wire>
-      <p1 x="-400" y="-1440"/>
-      <p2 x="-400" y="-1360"/>
+      <p1 x="-400" y="-1120"/>
+      <p2 x="-400" y="-1040"/>
     </wire>
     <wire>
-      <p1 x="-400" y="-1340"/>
-      <p2 x="-400" y="-1260"/>
+      <p1 x="-400" y="-1020"/>
+      <p2 x="-400" y="-940"/>
     </wire>
     <wire>
-      <p1 x="-400" y="-1260"/>
-      <p2 x="-400" y="-1200"/>
+      <p1 x="-400" y="-940"/>
+      <p2 x="-400" y="-880"/>
     </wire>
     <wire>
-      <p1 x="400" y="-1460"/>
-      <p2 x="400" y="-1440"/>
+      <p1 x="400" y="-1140"/>
+      <p2 x="400" y="-1120"/>
     </wire>
     <wire>
-      <p1 x="-20" y="-1100"/>
-      <p2 x="-20" y="-1080"/>
+      <p1 x="-20" y="-780"/>
+      <p2 x="-20" y="-760"/>
     </wire>
     <wire>
       <p1 x="-20" y="880"/>
       <p2 x="-20" y="940"/>
     </wire>
     <wire>
-      <p1 x="20" y="-1240"/>
-      <p2 x="20" y="-1200"/>
+      <p1 x="20" y="-920"/>
+      <p2 x="20" y="-880"/>
     </wire>
     <wire>
-      <p1 x="20" y="-1100"/>
-      <p2 x="20" y="-1080"/>
+      <p1 x="20" y="-780"/>
+      <p2 x="20" y="-760"/>
     </wire>
     <wire>
-      <p1 x="660" y="-1180"/>
-      <p2 x="660" y="-800"/>
+      <p1 x="660" y="-860"/>
+      <p2 x="660" y="-480"/>
     </wire>
     <wire>
-      <p1 x="-280" y="-1140"/>
-      <p2 x="-280" y="-1120"/>
+      <p1 x="-280" y="-820"/>
+      <p2 x="-280" y="-800"/>
+    </wire>
+    <wire>
+      <p1 x="-280" y="-780"/>
+      <p2 x="-280" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="-800"/>
+      <p2 x="920" y="-220"/>
     </wire>
     <wire>
       <p1 x="540" y="320"/>
       <p2 x="540" y="380"/>
     </wire>
     <wire>
-      <p1 x="540" y="-1440"/>
-      <p2 x="540" y="-1420"/>
+      <p1 x="540" y="-1120"/>
+      <p2 x="540" y="-1100"/>
     </wire>
     <wire>
-      <p1 x="540" y="-940"/>
-      <p2 x="540" y="-920"/>
+      <p1 x="540" y="-620"/>
+      <p2 x="540" y="-600"/>
     </wire>
     <wire>
-      <p1 x="540" y="-900"/>
-      <p2 x="540" y="-820"/>
+      <p1 x="540" y="-580"/>
+      <p2 x="540" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-240"/>
+      <p2 x="540" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-320"/>
+      <p2 x="540" y="-280"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-360"/>
+      <p2 x="540" y="-340"/>
     </wire>
     <wire>
       <p1 x="-160" y="320"/>
@@ -2517,16 +2909,20 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="-160" y="280"/>
     </wire>
     <wire>
-      <p1 x="-160" y="-1220"/>
-      <p2 x="-160" y="-1200"/>
+      <p1 x="-160" y="-900"/>
+      <p2 x="-160" y="-880"/>
     </wire>
     <wire>
-      <p1 x="-160" y="-1100"/>
-      <p2 x="-160" y="-1080"/>
+      <p1 x="-160" y="-780"/>
+      <p2 x="-160" y="-760"/>
     </wire>
     <wire>
-      <p1 x="-420" y="-1220"/>
-      <p2 x="-420" y="-1200"/>
+      <p1 x="800" y="-320"/>
+      <p2 x="800" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="-420" y="-900"/>
+      <p2 x="-420" y="-880"/>
     </wire>
     <wire>
       <p1 x="420" y="660"/>
@@ -2537,12 +2933,12 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="420" y="620"/>
     </wire>
     <wire>
-      <p1 x="420" y="-1440"/>
-      <p2 x="420" y="-1420"/>
+      <p1 x="420" y="-1120"/>
+      <p2 x="420" y="-1100"/>
     </wire>
     <wire>
-      <p1 x="-40" y="-1100"/>
-      <p2 x="-40" y="-1080"/>
+      <p1 x="-40" y="-780"/>
+      <p2 x="-40" y="-760"/>
     </wire>
     <wire>
       <p1 x="680" y="180"/>
@@ -2557,36 +2953,48 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="680" y="420"/>
     </wire>
     <wire>
-      <p1 x="680" y="-1380"/>
-      <p2 x="680" y="-1360"/>
+      <p1 x="680" y="-1060"/>
+      <p2 x="680" y="-1040"/>
     </wire>
     <wire>
-      <p1 x="40" y="-1140"/>
-      <p2 x="40" y="-1120"/>
+      <p1 x="680" y="-300"/>
+      <p2 x="680" y="-120"/>
     </wire>
     <wire>
-      <p1 x="40" y="-1100"/>
-      <p2 x="40" y="-1080"/>
+      <p1 x="40" y="-820"/>
+      <p2 x="40" y="-800"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="-780"/>
+      <p2 x="40" y="-760"/>
     </wire>
     <wire>
       <p1 x="40" y="780"/>
       <p2 x="40" y="840"/>
     </wire>
     <wire>
-      <p1 x="-300" y="-1240"/>
-      <p2 x="-300" y="-1200"/>
+      <p1 x="-300" y="-920"/>
+      <p2 x="-300" y="-880"/>
     </wire>
     <wire>
-      <p1 x="300" y="-960"/>
-      <p2 x="300" y="-900"/>
+      <p1 x="-300" y="-780"/>
+      <p2 x="-300" y="-760"/>
     </wire>
     <wire>
-      <p1 x="-560" y="-1100"/>
-      <p2 x="-560" y="-1080"/>
+      <p1 x="300" y="-360"/>
+      <p2 x="300" y="-260"/>
     </wire>
     <wire>
-      <p1 x="-180" y="-1100"/>
-      <p2 x="-180" y="-1080"/>
+      <p1 x="300" y="-640"/>
+      <p2 x="300" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="-560" y="-780"/>
+      <p2 x="-560" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="-780"/>
+      <p2 x="-180" y="-760"/>
     </wire>
     <wire>
       <p1 x="-180" y="340"/>
@@ -2597,20 +3005,20 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="820" y="200"/>
     </wire>
     <wire>
-      <p1 x="180" y="-1600"/>
-      <p2 x="180" y="-880"/>
-    </wire>
-    <wire>
       <p1 x="180" y="800"/>
       <p2 x="180" y="820"/>
     </wire>
     <wire>
-      <p1 x="180" y="-880"/>
-      <p2 x="180" y="240"/>
+      <p1 x="180" y="-1280"/>
+      <p2 x="180" y="-560"/>
     </wire>
     <wire>
       <p1 x="180" y="240"/>
       <p2 x="180" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="-560"/>
+      <p2 x="180" y="240"/>
     </wire>
     <wire>
       <p1 x="180" y="500"/>
@@ -2621,16 +3029,12 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="180" y="580"/>
     </wire>
     <wire>
-      <p1 x="-440" y="-1140"/>
-      <p2 x="-440" y="-1120"/>
+      <p1 x="-440" y="-820"/>
+      <p2 x="-440" y="-800"/>
     </wire>
     <wire>
-      <p1 x="-60" y="-1100"/>
-      <p2 x="-60" y="-1080"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="-960"/>
-      <p2 x="700" y="-840"/>
+      <p1 x="-60" y="-780"/>
+      <p2 x="-60" y="-760"/>
     </wire>
     <wire>
       <p1 x="700" y="240"/>
@@ -2645,68 +3049,76 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="700" y="340"/>
     </wire>
     <wire>
-      <p1 x="700" y="-1380"/>
-      <p2 x="700" y="-1360"/>
+      <p1 x="700" y="-1060"/>
+      <p2 x="700" y="-1040"/>
     </wire>
     <wire>
-      <p1 x="60" y="-1220"/>
-      <p2 x="60" y="-1200"/>
+      <p1 x="60" y="-900"/>
+      <p2 x="60" y="-880"/>
     </wire>
     <wire>
-      <p1 x="-320" y="-1220"/>
-      <p2 x="-320" y="-1200"/>
+      <p1 x="-320" y="-900"/>
+      <p2 x="-320" y="-880"/>
     </wire>
     <wire>
-      <p1 x="-580" y="-1100"/>
-      <p2 x="-580" y="-1080"/>
+      <p1 x="-320" y="-780"/>
+      <p2 x="-320" y="-760"/>
     </wire>
     <wire>
-      <p1 x="-200" y="-1460"/>
-      <p2 x="-200" y="-1360"/>
+      <p1 x="960" y="140"/>
+      <p2 x="960" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-580" y="-780"/>
+      <p2 x="-580" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="-1140"/>
+      <p2 x="-200" y="-1040"/>
     </wire>
     <wire>
       <p1 x="-200" y="340"/>
       <p2 x="-200" y="360"/>
     </wire>
     <wire>
-      <p1 x="-200" y="-1100"/>
-      <p2 x="-200" y="-1080"/>
+      <p1 x="-200" y="-780"/>
+      <p2 x="-200" y="-760"/>
     </wire>
     <wire>
       <p1 x="840" y="180"/>
       <p2 x="840" y="200"/>
     </wire>
     <wire>
-      <p1 x="-460" y="-1260"/>
-      <p2 x="-460" y="-1240"/>
+      <p1 x="-460" y="-940"/>
+      <p2 x="-460" y="-920"/>
     </wire>
     <wire>
-      <p1 x="-460" y="-1240"/>
-      <p2 x="-460" y="-1200"/>
+      <p1 x="-460" y="-920"/>
+      <p2 x="-460" y="-880"/>
     </wire>
     <wire>
-      <p1 x="-80" y="-1260"/>
-      <p2 x="-80" y="-1200"/>
+      <p1 x="-80" y="-940"/>
+      <p2 x="-80" y="-880"/>
     </wire>
     <wire>
-      <p1 x="-80" y="-1100"/>
-      <p2 x="-80" y="-1080"/>
+      <p1 x="-80" y="-780"/>
+      <p2 x="-80" y="-760"/>
     </wire>
     <wire>
-      <p1 x="720" y="-940"/>
-      <p2 x="720" y="-820"/>
+      <p1 x="720" y="-640"/>
+      <p2 x="720" y="-520"/>
     </wire>
     <wire>
-      <p1 x="720" y="-1380"/>
-      <p2 x="720" y="-1360"/>
+      <p1 x="720" y="-1060"/>
+      <p2 x="720" y="-1040"/>
     </wire>
     <wire>
       <p1 x="720" y="320"/>
       <p2 x="720" y="380"/>
     </wire>
     <wire>
-      <p1 x="80" y="-1260"/>
-      <p2 x="80" y="-1200"/>
+      <p1 x="80" y="-940"/>
+      <p2 x="80" y="-880"/>
     </wire>
     <wire>
       <p1 x="80" y="540"/>
@@ -2721,12 +3133,16 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="80" y="1020"/>
     </wire>
     <wire>
-      <p1 x="-220" y="-1100"/>
-      <p2 x="-220" y="-1080"/>
+      <p1 x="-340" y="-780"/>
+      <p2 x="-340" y="-760"/>
     </wire>
     <wire>
-      <p1 x="220" y="-1720"/>
-      <p2 x="220" y="720"/>
+      <p1 x="980" y="140"/>
+      <p2 x="980" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="-780"/>
+      <p2 x="-220" y="-760"/>
     </wire>
     <wire>
       <p1 x="860" y="180"/>
@@ -2741,20 +3157,28 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="860" y="440"/>
     </wire>
     <wire>
+      <p1 x="860" y="-340"/>
+      <p2 x="860" y="-280"/>
+    </wire>
+    <wire>
       <p1 x="860" y="200"/>
       <p2 x="860" y="220"/>
     </wire>
     <wire>
-      <p1 x="-480" y="-1240"/>
-      <p2 x="-480" y="-1220"/>
+      <p1 x="220" y="-1400"/>
+      <p2 x="220" y="720"/>
     </wire>
     <wire>
-      <p1 x="-480" y="-1220"/>
-      <p2 x="-480" y="-1200"/>
+      <p1 x="-480" y="-920"/>
+      <p2 x="-480" y="-900"/>
     </wire>
     <wire>
-      <p1 x="-100" y="-1220"/>
-      <p2 x="-100" y="-1200"/>
+      <p1 x="-480" y="-900"/>
+      <p2 x="-480" y="-880"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="-900"/>
+      <p2 x="-100" y="-880"/>
     </wire>
     <wire>
       <p1 x="-100" y="420"/>
@@ -2769,20 +3193,28 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="-100" y="360"/>
     </wire>
     <wire>
-      <p1 x="-100" y="-1100"/>
-      <p2 x="-100" y="-1080"/>
+      <p1 x="-100" y="-780"/>
+      <p2 x="-100" y="-760"/>
     </wire>
     <wire>
-      <p1 x="740" y="-1380"/>
-      <p2 x="740" y="-1360"/>
+      <p1 x="740" y="-620"/>
+      <p2 x="740" y="-500"/>
     </wire>
     <wire>
-      <p1 x="-240" y="-1100"/>
-      <p2 x="-240" y="-1080"/>
+      <p1 x="740" y="-1060"/>
+      <p2 x="740" y="-1040"/>
     </wire>
     <wire>
-      <p1 x="-240" y="-1260"/>
-      <p2 x="-240" y="-1200"/>
+      <p1 x="1000" y="140"/>
+      <p2 x="1000" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="-780"/>
+      <p2 x="-240" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="-940"/>
+      <p2 x="-240" y="-880"/>
     </wire>
     <wire>
       <p1 x="880" y="240"/>
@@ -2790,43 +3222,39 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
     </wire>
     <wire>
       <p1 x="880" y="180"/>
-      <p2 x="880" y="220"/>
+      <p2 x="880" y="200"/>
     </wire>
     <wire>
       <p1 x="880" y="320"/>
       <p2 x="880" y="340"/>
     </wire>
     <wire>
-      <p1 x="240" y="-1740"/>
-      <p2 x="240" y="-1720"/>
+      <p1 x="880" y="200"/>
+      <p2 x="880" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-1420"/>
+      <p2 x="240" y="-1400"/>
     </wire>
     <wire>
       <p1 x="240" y="560"/>
       <p2 x="240" y="600"/>
     </wire>
     <wire>
-      <p1 x="240" y="-1660"/>
-      <p2 x="240" y="-1560"/>
+      <p1 x="240" y="-1340"/>
+      <p2 x="240" y="-1240"/>
     </wire>
     <wire>
-      <p1 x="240" y="-1260"/>
-      <p2 x="240" y="-1180"/>
+      <p1 x="240" y="-240"/>
+      <p2 x="240" y="200"/>
     </wire>
     <wire>
-      <p1 x="240" y="-1720"/>
-      <p2 x="240" y="-1700"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="-1180"/>
-      <p2 x="240" y="-1120"/>
+      <p1 x="240" y="-1240"/>
+      <p2 x="240" y="-940"/>
     </wire>
     <wire>
       <p1 x="240" y="400"/>
       <p2 x="240" y="420"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="-1120"/>
-      <p2 x="240" y="200"/>
     </wire>
     <wire>
       <p1 x="240" y="420"/>
@@ -2837,20 +3265,32 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="240" y="520"/>
     </wire>
     <wire>
-      <p1 x="240" y="-1560"/>
-      <p2 x="240" y="-1260"/>
+      <p1 x="240" y="-940"/>
+      <p2 x="240" y="-860"/>
     </wire>
     <wire>
       <p1 x="240" y="600"/>
       <p2 x="240" y="640"/>
     </wire>
     <wire>
+      <p1 x="240" y="-1400"/>
+      <p2 x="240" y="-1380"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-860"/>
+      <p2 x="240" y="-800"/>
+    </wire>
+    <wire>
       <p1 x="240" y="200"/>
       <p2 x="240" y="400"/>
     </wire>
     <wire>
-      <p1 x="500" y="-880"/>
-      <p2 x="500" y="-840"/>
+      <p1 x="240" y="-800"/>
+      <p2 x="240" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-560"/>
+      <p2 x="500" y="-520"/>
     </wire>
     <wire>
       <p1 x="500" y="320"/>
@@ -2861,12 +3301,12 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="500" y="400"/>
     </wire>
     <wire>
-      <p1 x="-120" y="-1140"/>
-      <p2 x="-120" y="-1120"/>
+      <p1 x="-120" y="-820"/>
+      <p2 x="-120" y="-800"/>
     </wire>
     <wire>
-      <p1 x="-120" y="-1100"/>
-      <p2 x="-120" y="-1080"/>
+      <p1 x="-120" y="-780"/>
+      <p2 x="-120" y="-760"/>
     </wire>
     <wire>
       <p1 x="-120" y="420"/>
@@ -2881,32 +3321,44 @@ And now I&apos;d like to show some work i did on memory accessing on my CPU.</st
       <p2 x="-120" y="820"/>
     </wire>
     <wire>
-      <p1 x="760" y="-1460"/>
-      <p2 x="760" y="-1360"/>
+      <p1 x="760" y="-1140"/>
+      <p2 x="760" y="-1040"/>
     </wire>
     <wire>
-      <p1 x="760" y="-1280"/>
-      <p2 x="760" y="-1260"/>
+      <p1 x="760" y="-960"/>
+      <p2 x="760" y="-940"/>
     </wire>
     <wire>
-      <p1 x="760" y="-1260"/>
-      <p2 x="760" y="-1180"/>
+      <p1 x="760" y="-940"/>
+      <p2 x="760" y="-860"/>
     </wire>
     <wire>
       <p1 x="120" y="820"/>
       <p2 x="120" y="840"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1220"/>
-      <p2 x="380" y="-1200"/>
+      <p1 x="1020" y="180"/>
+      <p2 x="1020" y="200"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1160"/>
-      <p2 x="380" y="-1140"/>
+      <p1 x="1020" y="140"/>
+      <p2 x="1020" y="160"/>
     </wire>
     <wire>
-      <p1 x="380" y="-1300"/>
-      <p2 x="380" y="-1280"/>
+      <p1 x="380" y="-900"/>
+      <p2 x="380" y="-880"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-840"/>
+      <p2 x="380" y="-820"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-980"/>
+      <p2 x="380" y="-960"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-260"/>
+      <p2 x="380" y="-140"/>
     </wire>
   </wires>
   <measurementOrdering/>
