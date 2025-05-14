@@ -35,7 +35,7 @@
         </entry>
         <entry>
           <string>Frequency</string>
-          <int>500</int>
+          <int>50000</int>
         </entry>
       </elementAttributes>
       <pos x="400" y="180"/>
@@ -72,11 +72,10 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>72,0,3f,82,0,ff,9,87,0,d2,0,10,e2,0,0,72,0,0,82,0,18,e,87,0,92
-,0,c2,a2,0,0,b2,0,40,c2,0,0,13,ed,0,5,1,2,72,0,0,82,0,4b,86,87
-,0,14,a9,0,14,cb,0,22,0,1,d5,2d,0,e5,e,1,72,0,0,82,0,24,f6,87
-,0,d,4020*0,48,65,6c,6c,6f,20,57,6f,72,6c,64,21,20,4a,75,73,74
-,20,61,20,74,65,73,74,20,6d,65,73,73,61,67,65,2e</data>
+          <data>72,0,3f,82,0,ff,9,87,0,b2,0,40,c2,0,0,d2,0,1,e2,0,0,d4,cb,0,e4
+,cb,1,72,0,0,82,0,24,e,87,0,92,0,c2,a2,0,0,13,ed,0,5,10,2,72,0,0
+,82,0,57,86,87,0,14,a9,0,d4,cb,0,e4,cb,1,14,cb,2,72,0,1,e5,7e
+,0,d5,d,1,72,0,0,82,0,2a,f6,87,0,d,168*0,54,65,73,74,2e</data>
         </entry>
       </elementAttributes>
       <pos x="980" y="440"/>
@@ -119,6 +118,10 @@
         <entry>
           <string>Bits</string>
           <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
         </entry>
       </elementAttributes>
       <pos x="1120" y="440"/>

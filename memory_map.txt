@@ -1,0 +1,14 @@
+ROM: 0x0000 - 0x3FFF (16k)
+RAM: 0x4000 - 0xBFFF (32k)
+IO: 0xC000 - 0xFFFF (16k)
+
+IO Addresses:
+Terminal: 0xC1
+Keyboard: 0xC2(low), 0xC3(high)
+
+0000 0000 0000 0000
+  00 0000 0000 0000
+     0000 0000 0000
+    /    /    /
+0000 0000 0000
+

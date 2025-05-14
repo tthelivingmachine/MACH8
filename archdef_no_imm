@@ -1,0 +1,24 @@
+    je    [{rs0: register},{rs1: register}] => 0x86 @ {rs1}`4 @ {rs0}`4 @ 0x00
+    jne    [{rs0: register},{rs1: register}] => 0x06 @ {rs1}`4 @ {rs0}`4 @ 0x00
+    jb    [{rs0: register},{rs1: register}] => 0x96 @ {rs1}`4 @ {rs0}`4 @ 0x00
+    jbe    [{rs0: register},{rs1: register}] => 0xb6 @ {rs1}`4 @ {rs0}`4 @ 0x00
+    jae    [{rs0: register},{rs1: register}] => 0xa6 @ {rs1}`4 @ {rs0}`4 @ 0x00
+    jl    [{rs0: register},{rs1: register}] => 0xd6 @ {rs1}`4 @ {rs0}`4 @ 0x00
+    jle    [{rs0: register},{rs1: register}] => 0xc6 @ {rs1}`4 @ {rs0}`4 @ 0x00
+    jn    [{rs0: register},{rs1: register}] => 0x76 @ {rs1}`4 @ {rs0}`4 @ 0x00
+    jmp    [{rs0: register},{rs1: register}] => 0xF6 @ {rs1}`4 @ {rs0}`4 @ 0x00
+
+    add    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x00
+    adc    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x01
+    sub    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x02
+    sbc    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x03
+    and    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x04
+    or    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x05
+    xor    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x06
+    shr    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x07
+    shl    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x08
+    rol    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x09
+    ror    {rd: register}, {rs0: register}, {rs1: register} => {rd}`4 @ 0x5 @ {rs1}`4 @ {rs0}`4 @ 0x0A
+    
+    load    {rd: register}, [{rs0: register},{rs1: register}] => 0x00 @ {rs1}`4 @ {rs0}`4 @ {rd}`4 @ 0x3
+    store    {rd: register}, [{rs0: register},{rs1: register}] => 0x00 @ {rs1}`4 @  {rs0}`4 @ {rd}`4 @ 0x4
